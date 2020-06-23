@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<managedAppConfiguration>
+	<version>10</version>
+	<bundleId>com.sample.BundleIdMyApp</bundleId>
+	<dict>
+		<string keyName="configurationURL">
+		</string>
+	</dict>
+	<presentation defaultLocale="en-US">
+	<fieldGroup>
+		<name>
+			<language value="en-US">Configuration</language>
+		</name>
+		<field keyName="configurationURL" type="input">
+			<label>
+				<language value="en-US">URL of configuration file</language>
+			</label>
+			<description>
+				<language value="en-US">Configuration file for app</language>
+			</description>
+		</field>
+	</fieldGroup>
+	</presentation>
+</managedAppConfiguration>
