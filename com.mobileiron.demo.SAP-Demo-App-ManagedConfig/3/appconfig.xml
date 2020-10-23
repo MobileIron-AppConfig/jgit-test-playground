@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<managedAppConfiguration>
+  <version>3</version>
+  <bundleId>com.mobileiron.demo.SAP-Demo-App-ManagedConfig</bundleId>
+  <dict>
+    <string keyName="UserEmailAddress">
+      <defaultValue>
+        <value>${userEmailAddress}</value>
+      </defaultValue>
+    </string>
+    <string keyName="EnvironmentSetting">
+      <defaultValue>
+        <value>production</value>
+      </defaultValue>
+    </string>
+  </dict>
+  <presentation defaultLocale="en-US">
+    <fieldGroup>
+      <name>
+        <language value="en-US">Demo Group</language>
+      </name>
+      <field keyName="UserEmailAddress" type="input">
+        <label>
+          <language value="en-US">User email address</language>
+        </label>
+        <description>
+          <language value="en-US">This is the email address of the logged in user</language>
+        </description>
+      </field>
+      <field keyName="EnvironmentSetting" type="select">
+        <label>
+          <language value="en-US">Environment</language>
+        </label>
+        <description>
+          <language value="en-US">Please choose the environment setting for this demo app</language>
+        </description>
+        <options>
+          <option value="production" selected="true">
+            <language value="en-US">Production</language>
+          </option>
+          <option value="Development">
+            <language value="en-US">Development</language>
+          </option>
+        </options>
+      </field>
+    </fieldGroup>
+  </presentation>
+</managedAppConfiguration>
