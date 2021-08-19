@@ -1,0 +1,731 @@
+<managedAppConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/com.mobileiron.onetouch/appconfig/appconfig.xsd">
+    <version>2</version>
+    <bundleId>com.mobilebox.securecontact.ios.x.business</bundleId>
+    <dict>
+        <string keyName="organisationName">
+            <defaultValue>
+                <value></value>
+            </defaultValue>
+        </string>
+        <string keyName="enterpriseToken">
+            <defaultValue>
+                <value></value>
+            </defaultValue>
+        </string>
+        <boolean keyName="canUsePhoneNumbers">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseEmailAddresses">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUsePostalAddresses">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseNotes">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseiMessage">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseAnonymousCall">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseWhatsApp">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseThreema">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseTelegram">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseSkype">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseSkypeForBusiness">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseCiscoJabber">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseFacetime">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseGenericSip">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseThreeCx">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoAppleMail">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoOutlook">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMsTeams">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoIbmVerse">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoMobileIron">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoBlackBerry">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoVMwareBoxer">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoSpark">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoSecurePim">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoGmail">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoYahooMail">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoNewtonMail">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoCitrix">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseMailtoAirmail">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseXCallbacks">
+            <defaultValue>
+                <value>false</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canUseWhatsAppPro">
+            <defaultValue>
+                <value>false</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canImportContacts">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="canExportContacts">
+            <defaultValue>
+                <value>true</value>
+            </defaultValue>
+        </boolean>
+        <boolean keyName="ewsUsesKerberos">
+            <defaultValue>
+                <value>false</value>
+            </defaultValue>
+        </boolean>
+        <string keyName="ewsUrl">
+            <defaultValue>
+                <value></value>
+            </defaultValue>
+        </string>
+        <string keyName="galAddressListId">
+            <defaultValue>
+                <value></value>
+            </defaultValue>
+        </string>
+        <integer keyName="galSleepInMilliseconds">
+            <defaultValue>
+                <value>10</value>
+            </defaultValue>
+        </integer>
+        <integer keyName="galBatchLoadSize">
+            <defaultValue>
+                <value>2</value>
+            </defaultValue>
+        </integer>
+        <string keyName="cardDavUrl">
+            <defaultValue>
+                <value></value>
+            </defaultValue>
+        </string>
+        <string keyName="cardDavAddressbookUrl">
+            <defaultValue>
+                <value></value>
+            </defaultValue>
+        </string>
+        <stringArray keyName="importResources">
+            <defaultValue>
+                <value>URL</value>
+                <value>PASSWORD</value>
+                <value>URL</value>
+                <value>PASSWORD</value>
+            </defaultValue>
+        </stringArray>
+        <boolean keyName="canUseSecureConfigurationCheck">
+            <defaultValue>
+                <value>false</value>
+            </defaultValue>
+        </boolean>
+    </dict>
+    <presentation defaultLocale="en-US">
+        <fieldGroup>
+            <name>
+                <language value="en-US">Organisation</language>
+                <language value="en-US">Organisation</language>
+            </name>
+            <field keyName="organisationName" type="input">
+                <label>
+                    <language value="de-de">Name der Organisation</language>
+                    <language value="en-US">Organisation name</language>
+                </label>
+                <description>
+                    <language value="de-de">Name der Organisation, die das Gerät verwaltet</language>
+                    <language value="en-US">Name of the organisation which manages the device</language>
+                </description>
+            </field>
+            <field keyName="enterpriseToken" type="input">
+                <label>
+                    <language value="de-de">Enterprise Token</language>
+                    <language value="en-US">Enterprise Token</language>
+                </label>
+                <description>
+                    <language value="de-de">Der EnterpriseToken, der das Gerät konfiguriert und lizensiert.</language>
+                    <language value="en-US">The EnterpriseToken which configures and licenses the device.</language>
+                </description>
+            </field>
+        </fieldGroup>
+        <fieldGroup>
+            <name>
+                <language value="de-de">Sichtbarkeit von Kontaktdetails</language>
+                <language value="en-US">Visibility of contact details</language>
+            </name>
+            <field keyName="canUsePhoneNumbers" type="checkbox">
+                <label>
+                    <language value="de-de">Telefonnummern-Sichtbarkeit</language>
+                    <language value="en-US">Visibility of phonenumbers</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer die Telefonnummern eines Kontakts sehen.</language>
+                    <language value="en-US">If set, phone numbers are visible on the contact details page.</language>
+                </description>
+            </field>
+            <field keyName="canUseEmailAddresses" type="checkbox">
+                <label>
+                    <language value="de-de">Emailadressen-Sichtbarkeit</language>
+                    <language value="en-US">Visibility of phonenumbers</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer die Emailadressen eines Kontakts sehen.</language>
+                    <language value="en-US">If set, email addresses are visible on the contact details page.</language>
+                </description>
+            </field>
+            <field keyName="canUsePostalAddresses" type="checkbox">
+                <label>
+                    <language value="de-de">Anschrift-Sichtbarkeit</language>
+                    <language value="en-US">Visibility of postal adresses</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer die Anschriften eines Kontakts sehen.</language>
+                    <language value="en-US">If set, postal adresses are visible on the contact details page.</language>
+                </description>
+            </field>
+            <field keyName="canUseNotes" type="checkbox">
+                <label>
+                    <language value="de-de">Notizen-Sichtbarkeit</language>
+                    <language value="en-US">Visibility of notes</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer die Notizen eines Kontakts sehen.</language>
+                    <language value="en-US">If set, notes are visible on the contact details page.</language>
+                </description>
+            </field>
+        </fieldGroup>
+        <fieldGroup>
+            <name>
+                <language value="de-de">Nutzung von Drittanbieter-Apps</language>
+                <language value="en-US">Usage of thirdparty apps</language>
+            </name>
+            <field keyName="canUseiMessage" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von iMessage</language>
+                    <language value="en-US">Usage of iMessage</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Telefonnummer ein Kommunikation in iMessage starten.</language>
+                    <language value="en-US">If set, a phone number can be used to start a communication in iMessage.</language>
+                </description>
+            </field>
+            <field keyName="canUseAnonymousCall" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von anonymen Anrufen</language>
+                    <language value="en-US">Usage of anonymous calls</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klicken auf eine Telefonnummer einen anonymen Anruf starten.</language>
+                    <language value="en-US">If set, a phone number can be used to start an anonymous call.</language>
+                </description>
+            </field>
+            <field keyName="canUseWhatsApp" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von WhatsApp</language>
+                    <language value="en-US">Usage of WhatsApp</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klicken auf eine Telefonnummer ein Kommunikation in WhatsApp starten.</language>
+                    <language value="en-US">If set, a phone number can be used to start a communication in WhatsApp.</language>
+                </description>
+            </field>
+            <field keyName="canUseThreema" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Threema</language>
+                    <language value="en-US">Usage of Threema</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klicken auf eine Telefonnummer oder Mailadresse ein Kommunikation in Threema starten.</language>
+                    <language value="en-US">If set, a phone number or emailadress can be used to start a communication in Threema.</language>
+                </description>
+            </field>
+            <field keyName="canUseTelegram" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Telegram</language>
+                    <language value="en-US">Usage of Telegram</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klicken auf eine Telefonnummer ein Kommunikation in Telegram starten.</language>
+                    <language value="en-US">If set, a phone number can be used to start a communication in Telegram.</language>
+                </description>
+            </field>
+            <field keyName="canUseSkype" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Skype</language>
+                    <language value="en-US">Usage of Skype</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klicken auf eine Telefonnummer ein Kommunikation in Skype starten.</language>
+                    <language value="en-US">If set, a phone number can be used to start a communication in Skype.</language>
+                </description>
+            </field>
+            <field keyName="canUseSkypeForBusiness" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Skype for Business</language>
+                    <language value="en-US">Usage of Skype for Business</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klicken auf eine Telefonnummer ein Kommunikation in Skype for Business starten.</language>
+                    <language value="en-US">If set, a phone number can be used to start a communication in Skype for Business.</language>
+                </description>
+            </field>
+            <field keyName="canUseCiscoJabber" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Cisco Jabber</language>
+                    <language value="en-US">Usage of Cisco Jabber</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klicken auf eine Telefonnummer ein Kommunikation in Cisco Jabber starten.</language>
+                    <language value="en-US">If set, a phone number can be used to start a communication in Cisco Jabber.</language>
+                </description>
+            </field>
+            <field keyName="canUseFacetime" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Facetime</language>
+                    <language value="en-US">Usage of Facetime</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klicken auf eine Telefonnummer ein Kommunikation in Facetime starten.</language>
+                    <language value="en-US">If set, a phone number can be used to start a communication in Facetime.</language>
+                </description>
+            </field>
+            <field keyName="canUseGenericSip" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von generic SIP</language>
+                    <language value="en-US">Usage of generic SIP</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klicken auf eine Telefonnummer ein Kommunikation in einer Standard SIP App starten.</language>
+                    <language value="en-US">If set, a phone number can be used to start a communication in the standard SIP App.</language>
+                </description>
+            </field>
+            <field keyName="canUseThreeCx" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von 3CX</language>
+                    <language value="en-US">Usage of 3CX</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klicken auf eine Telefonnummer ein Kommunikation in 3CX starten.</language>
+                    <language value="en-US">If set, a phone number can be used to start a communication in 3CX.</language>
+                </description>
+            </field>
+        </fieldGroup>
+        <fieldGroup>
+            <name>
+                <language value="de-de">Nutzung von Email Apps</language>
+                <language value="en-US">Usage of email apps</language>
+            </name>
+            <field keyName="canUseMailtoAppleMail" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Apple Mail</language>
+                    <language value="en-US">Usage of Apple Mail</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in Apple Mail starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in Apple Mail.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoOutlook" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Microsoft Outlook</language>
+                    <language value="en-US">Usage of Microsoft Outlook</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in Microsoft Outlook starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in Microsoft Outlook.</language>
+                </description>
+            </field>
+            <field keyName="canUseMsTeams" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Microsoft Teams</language>
+                    <language value="en-US">Usage of Microsoft Teams</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in Microsoft Teams starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in Microsoft Teams.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoIbmVerse" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von IBM Verse</language>
+                    <language value="en-US">Usage of IBM Verse</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in IBM Verse starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in IBM Verse.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoMobileIron" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Mobile Iron Email+</language>
+                    <language value="en-US">Usage of Mobile Iron Email+</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in Mobile Iron Email+ starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in Mobile Iron Email+.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoBlackBerry" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von BlackBerry Work</language>
+                    <language value="en-US">Usage of BlackBerry Work</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in BlackBerry Work starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in BlackBerry Work.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoVMwareBoxer" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von VMWare Boxer</language>
+                    <language value="en-US">Usage of VMWare Boxer</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in VMWare Boxer starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in VMWare Boxer.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoSpark" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Spark</language>
+                    <language value="en-US">Usage of Spark</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in Spark starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in Spark.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoSecurePim" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von SecurePim</language>
+                    <language value="en-US">Usage of SecurePim</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in SecurePim starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in SecurePim.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoGmail" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Gmail</language>
+                    <language value="en-US">Usage of Gmail</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in Gmail starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in Gmail.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoYahooMail" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Yahoo Mail</language>
+                    <language value="en-US">Usage of Yahoo Mail</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in Yahoo Mail starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in Yahoo Mail.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoNewtonMail" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Newton Mail</language>
+                    <language value="en-US">Usage of Newton Mail</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in Newton Mail starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in Newton Mail.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoCitrix" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Citric Secure Mail</language>
+                    <language value="en-US">Usage of Citric Secure Mail</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in Citric Secure Mail starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in Citric Secure Mail.</language>
+                </description>
+            </field>
+            <field keyName="canUseMailtoAirmail" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Airmail</language>
+                    <language value="en-US">Usage of Airmail</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer beim Klick auf eine Emailadresse ein Kommunikation in Airmail starten.</language>
+                    <language value="en-US">If set, a emailaddress can be used to start a communication in Airmail.</language>
+                </description>
+            </field>
+        </fieldGroup>
+        <fieldGroup>
+            <name>
+                <language value="de-de">Komfort Funktionen</language>
+                <language value="en-US">Comfort functions</language>
+            </name>
+            <field keyName="canUseXCallbacks" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von XCallbacks</language>
+                    <language value="en-US">Usage of XCallbacks</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, können Daten aus SecureContact z.B. in Apple Kurzbefehle abgerufen werden.</language>
+                    <language value="en-US">If set, data from SecureContact can be used e.g. from Apple Shortcuts App.</language>
+                </description>
+            </field>
+            <field keyName="canUseWhatsAppPro" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von WhatApp Pro</language>
+                    <language value="en-US">Usage of WhatsApp Pro</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, wird beim Starten einer Kommunikation in WhatsApp ein minimaler Identifikationseintrag im iOS Adressbuch angelegt. So können Chatpartner in WhatsApp mit Namen angezeigt werden.</language>
+                    <language value="en-US">If this field is set, a minimum identification entry will be created in the iOS address book when starting a communication to WhatsApp. This allows chat partners in WhatsApp to be displayed by name.</language>
+                </description>
+            </field>
+        </fieldGroup>
+        <fieldGroup>
+            <name>
+                <language value="de-de">Sicherheits Funktionen</language>
+                <language value="en-US">Security functions</language>
+            </name>
+            <field keyName="canImportContacts" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Import Funktionen</language>
+                    <language value="en-US">Usage of import functions</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer Daten aus Quellen importieren.</language>
+                    <language value="en-US">If set, the user can import data from sources.</language>
+                </description>
+            </field>
+            <field keyName="canExportContacts" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von Export Funktionen</language>
+                    <language value="en-US">Usage of export functions</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, kann der Nutzer Daten aus SecureContact exportieren.</language>
+                    <language value="en-US">If set, the user can export data from SecureContact.</language>
+                </description>
+            </field>
+        </fieldGroup>
+        <fieldGroup>
+            <name>
+                <language value="de-de">EWS/GAL</language>
+                <language value="en-US">EWS/GAL</language>
+            </name>
+            <field keyName="ewsUsesKerberos" type="checkbox">
+                <label>
+                    <language value="de-de">Nutzung von iOS SSO Extension</language>
+                    <language value="en-US">Usage of iOS SSO Extension</language>
+                </label>
+                <description>
+                    <language value="de-de">Wenn dieses Feld gesetzt ist, wird die iOS SSO Extension verwendet. Der Nutzer bekommt keine Loginmaske.</language>
+                    <language value="en-US">If this field is set, iOS SSO Extension will be used for the EWS login. The user does not get a login mask.</language>
+                </description>
+            </field>
+            <field keyName="ewsUrl" type="input">
+                <label>
+                    <language value="de-de">Exchange EWS URL</language>
+                    <language value="en-US">Exchange EWS URL</language>
+                </label>
+                <description>
+                    <language value="de-de">Exchange EWS Endpunkt, im Format: "https://.../EWS/Exchange.asmx"</language>
+                    <language value="en-US">Exchange EWS Endpunkt, Format: "https://.../EWS/Exchange.asmx"</language>
+                </description>
+            </field>
+            <field keyName="galAddressListId" type="input">
+                <label>
+                    <language value="de-de">GUID der GAL</language>
+                    <language value="en-US">GUID of the GAL</language>
+                </label>
+                <description>
+                    <language value="de-de">GUID der zu importierenden globalen Adressliste. Die GUID ist im Format: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</language>
+                    <language value="en-US">GUID of the global address list to be imported. The GUID is in the format: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</language>
+                </description>
+            </field>
+            <field keyName="galSleepInMilliseconds" type="input">
+                <label>
+                    <language value="de-de">Pause zwischen API Anfragen</language>
+                    <language value="en-US">Sleep between API requests</language>
+                </label>
+                <description>
+                    <language value="de-de">Zur Entlastung des Exchange Endpunkts kann beim Import per EWS zwischen Anfragen eine optionale Pause liegen.</language>
+                    <language value="en-US">To relieve the Exchange endpoint, when importing via EWS, there may be an optional pause between requests.</language>
+                </description>
+            </field>
+            <field keyName="galBatchLoadSize" type="input">
+                <label>
+                    <language value="de-de">Parallele Anfragen</language>
+                    <language value="en-US">Parallel Requests</language>
+                </label>
+                <description>
+                    <language value="de-de">Für eine bessere Performance beim Import der GAL werden mehrere Anfragen gleichzeitig gesendet. Hier kann definiert werden, wie viele gleichzeitig gesendet werden.</language>
+                    <language value="en-US">For better performance when importing the GAL, multiple requests are sent simultaneously. Here you can define how many are sent at the same time.</language>
+                </description>
+            </field>
+        </fieldGroup>
+        <fieldGroup>
+            <name>
+                <language value="de-de">CardDAV</language>
+                <language value="en-US">CardDAV</language>
+            </name>
+            <field keyName="cardDavUrl" type="input">
+                <label>
+                    <language value="de-de">URL des CardDAV Endpunkts</language>
+                    <language value="en-US">URL of the CardDAV endpoint</language>
+                </label>
+                <description>
+                    <language value="de-de">Der Endpunkt wird zur Auflösung der CardDAV URLs verwendet.</language>
+                    <language value="en-US">The endpoint will be used to resolve the CardDAV URLs.</language>
+                </description>
+            </field>
+            <field keyName="cardDavAddressbookUrl" type="input">
+                <label>
+                    <language value="de-de">URL eines CardDAV Adressbuchs</language>
+                    <language value="en-US">URL of a CardDAV Addressbook</language>
+                </label>
+                <description>
+                    <language value="de-de">Zu importierendes CardDAV Adressbuch</language>
+                    <language value="en-US">CardDAV address book to import</language>
+                </description>
+            </field>
+        </fieldGroup>
+        <fieldGroup>
+            <name>
+                <language value="de-de">SecureTransfer</language>
+                <language value="en-US">SecureTransfer</language>
+            </name>
+            <field keyName="importResources" type="list">
+                <label>
+                    <language value="de-de">Importquellen</language>
+                    <language value="en-US">import resources</language>
+                </label>
+                <description>
+                    <language value="de-de">String Array mit Wertpaaren aus URL und Passwort. Die URL muss auf eine gültige SCT oder SCT2 Datei zeigen.</language>
+                    <language value="en-US">String array with value pairs from URL and password. The URL must point to a valid SCT or SCT2 file.</language>
+                </description>
+            </field>
+        </fieldGroup>
+        <fieldGroup>
+            <name>
+                <language value="de-de">Verwaltung</language>
+                <language value="en-US">Administration</language>
+            </name>
+            <field keyName="canUseSecureConfigurationCheck" type="checkbox">
+                <label>
+                    <language value="de-de">SecureConfigurationCheck</language>
+                    <language value="en-US">SecureConfigurationCheck</language>
+                </label>
+                <description>
+                    <language value="de-de">Mit dieser Einstellung kann eine Übersichtsseite in SecureContact freigeschaltet werden, auf der alle Einstellungen des MDMs oder aus der SecureConfigurationCloud angezeigt werden.</language>
+                    <language value="en-US">With this setting, an overview page can be activated in SecureContact, on which all settings of the MDM or from the SecureConfigurationCloud are displayed.</language>
+                </description>
+            </field>
+        </fieldGroup>
+    </presentation>
+</managedAppConfiguration>
